@@ -1,5 +1,8 @@
 # paper-reading-workflow
 
+[![English](https://img.shields.io/badge/README-English-blue?style=for-the-badge)](./README.md)
+[![中文](https://img.shields.io/badge/README-%E4%B8%AD%E6%96%87-red?style=for-the-badge)](./README.zh-CN.md)
+
 A reusable open-source skill for AI research assistants that need to:
 
 - deeply read a single paper from a **title**, **arXiv link**, or **PDF file**;
@@ -63,6 +66,7 @@ This repository does **not** include:
 paper-reading-workflow/
 ├── SKILL.md
 ├── README.md
+├── README.zh-CN.md
 ├── package.json
 ├── .env.example
 ├── .gitignore
