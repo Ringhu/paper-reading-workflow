@@ -1,0 +1,8 @@
+{
+  "name": "paper-reading-workflow",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@tryfabric/martian": "^1.2.4"
+  }
+}
