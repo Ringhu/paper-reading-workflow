@@ -1,9 +1,28 @@
+<div align="center">
+
 # paper-reading-workflow
+
+**An open-source paper reading skill for AI research assistants**  
+Deep-read one paper, scan many papers, and turn results into reusable research outputs.
 
 [![English](https://img.shields.io/badge/README-English-blue?style=for-the-badge)](./README.md)
 [![中文](https://img.shields.io/badge/README-%E4%B8%AD%E6%96%87-red?style=for-the-badge)](./README.zh-CN.md)
 
-A reusable open-source skill for AI research assistants that need to:
+[![Skill](https://img.shields.io/badge/type-AgentSkill-6f42c1?style=flat-square)](./SKILL.md)
+[![Notion](https://img.shields.io/badge/optional-Notion%20Sync-2ea44f?style=flat-square)](./references/notion-sync-guide.md)
+[![GitHub](https://img.shields.io/badge/optional-GitHub%20Publish-0969da?style=flat-square)](./references/github-publish-guide.md)
+[![Beginner Friendly](https://img.shields.io/badge/docs-beginner%20friendly-orange?style=flat-square)](./README.md)
+
+</div>
+
+---
+
+## Why this repository exists
+
+Many paper-reading workflows are scattered across prompts, personal notes, or private scripts.  
+This repository turns that process into a reusable, open, and beginner-friendly skill.
+
+It helps an AI research assistant:
 
 - deeply read a single paper from a **title**, **arXiv link**, or **PDF file**;
 - generate a **daily paper brief** and a **daily full report**;
@@ -12,7 +31,41 @@ A reusable open-source skill for AI research assistants that need to:
 - optionally record important papers into a **research log**.
 
 > This repository is intentionally designed to be beginner-friendly.
-> It does **not** include any private tokens, database IDs, or personal paths.
+> It does **not** include any private tokens, database IDs, personal paths, or personal memory files.
+
+---
+
+## At a glance
+
+### Workflow A — Single-paper deep reading
+
+```text
+Title / arXiv / PDF
+        ↓
+Get paper content
+        ↓
+Check: full paper or abstract-only?
+        ↓
+Write structured deep-read report
+        ↓
+Optional: Notion sync / research log
+```
+
+### Workflow B — Daily paper scanning
+
+```text
+Topic / date range
+        ↓
+Search papers
+        ↓
+Deduplicate
+        ↓
+Write brief
+        ↓
+Write full report
+        ↓
+Optional: GitHub publish / Notion sync
+```
 
 ---
 
