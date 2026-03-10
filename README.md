@@ -47,16 +47,6 @@ Workflow:
 5. Optionally publish to GitHub.
 6. Optionally sync to Notion.
 
----
-
-## What this repository does **not** cover
-
-This repository does **not** include:
-- private prompts,
-- private Notion database IDs,
-- private GitHub repositories,
-- personal memory files,
-- retroactive repair workflows for already-uploaded reports.
 
 ---
 
