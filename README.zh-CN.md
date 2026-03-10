@@ -1,9 +1,28 @@
+<div align="center">
+
 # paper-reading-workflow
+
+**一个面向 AI 研究助手的开源论文阅读工作流 skill**  
+单篇精读、每日电论文扫描，并把结果沉淀成可复用的研究产出。
 
 [![English](https://img.shields.io/badge/README-English-blue?style=for-the-badge)](./README.md)
 [![中文](https://img.shields.io/badge/README-%E4%B8%AD%E6%96%87-red?style=for-the-badge)](./README.zh-CN.md)
 
-一个可复用、可开源的论文阅读工作流 skill，适用于 AI 研究助手或研究者，帮助你完成：
+[![Skill](https://img.shields.io/badge/type-AgentSkill-6f42c1?style=flat-square)](./SKILL.md)
+[![Notion](https://img.shields.io/badge/optional-Notion%20Sync-2ea44f?style=flat-square)](./references/notion-sync-guide.md)
+[![GitHub](https://img.shields.io/badge/optional-GitHub%20Publish-0969da?style=flat-square)](./references/github-publish-guide.md)
+[![Beginner Friendly](https://img.shields.io/badge/docs-beginner%20friendly-orange?style=flat-square)](./README.zh-CN.md)
+
+</div>
+
+---
+
+## 为什么有这个仓库
+
+很多论文阅读流程都散落在 prompt、私有笔记或零散脚本里。  
+这个仓库希望把它整理成一个**可复用、可开源、对新手友好**的标准化 skill。
+
+它可以帮助 AI 研究助手或研究者完成：
 
 - 基于**论文标题**、**arXiv 链接**或 **PDF 文件**进行单篇精读；
 - 生成**每日日报简报（brief）**和**完整版日报（full report）**；
@@ -13,6 +32,40 @@
 
 > 本仓库按“新手友好”方式组织。
 > 仓库中**不包含**任何私人 token、数据库 ID、个人路径或私有记忆内容。
+
+---
+
+## 一眼看懂两个工作流
+
+### 工作流 A —— 单篇论文精读
+
+```text
+标题 / arXiv / PDF
+        ↓
+获取论文内容
+        ↓
+判断：基于全文还是仅基于摘要？
+        ↓
+输出结构化精读报告
+        ↓
+可选：同步到 Notion / 写入 research log
+```
+
+### 工作流 B —— 每日电论文扫描
+
+```text
+主题 / 日期范围
+        ↓
+搜索论文
+        ↓
+去重
+        ↓
+写 brief
+        ↓
+写 full report
+        ↓
+可选：发布到 GitHub / 同步到 Notion
+```
 
 ---
 
