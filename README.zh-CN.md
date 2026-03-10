@@ -33,7 +33,7 @@
 4. 可选同步到 Notion；
 5. 可选写入 research log。
 
-### 2）每日电论文扫描 / 主题扫描
+### 2）每日论文扫描 / 主题扫描
 适用于：
 - 最近论文日报
 - 某个研究方向的论文扫描
@@ -47,16 +47,6 @@
 5. 可选发布到 GitHub；
 6. 可选同步到 Notion。
 
----
-
-## 这个仓库**不包含**什么
-
-本仓库**不包含**：
-- 私有 prompt
-- 私有 Notion 数据库 ID
-- 私有 GitHub 仓库地址
-- 个人长期记忆文件
-- 已上传旧报告的修复 / 重传工作流
 
 ---
 
@@ -314,7 +304,7 @@ python3 scripts/validate_report_structure.py /path/to/report.md
 4. 保存为 `YYYY-MM-DD-paper-slug-deepread.md`；
 5. 如有需要，再同步到 Notion。
 
-### 示例 2：每日电论文扫描
+### 示例 2：每日论文扫描
 
 输入：
 - 某个主题关键词，例如：
